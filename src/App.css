@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+/* General Header Styles */
+
+body {
+  background-color: #000; /* Black background */
+  font-family: Quicksand, sans-serif;
+}

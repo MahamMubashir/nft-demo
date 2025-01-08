@@ -1,0 +1,48 @@
+.digital-art-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-grow: 0; /* do not grow   - initial value: 0 */
+  flex-shrink: 0; /* do not shrink - initial value: 1 */
+  flex-basis: 25em; /* width/height  - initial value: auto */
+}
+
+.digital-art-description img {
+  width: 120px;
+  height: 40px;
+  margin-top: 80px;
+}
+
+.digital-art-description {
+  width: 240px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.digital-art-heading {
+  color: #ffffff;
+}
+
+.digital-art-div {
+  background-color: #141414;
+  display: flex;
+  margin: 20px;
+  padding: 15px 25px 15px 15px;
+}
+
+.digital-art-div-text {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  margin-left: 15px;
+}
+
+.digital-art-div-text:hover {
+  color: #a020f0; /* Purple hover color */
+}
+
+.digital-art-divs {
+  margin-top: 100px;
+}

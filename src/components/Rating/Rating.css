@@ -1,0 +1,32 @@
+.rating-block {
+  background-color: #141414;
+
+  margin: 80px 0 0 0;
+  padding: 0 0px 80px 0;
+}
+
+.rating-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rating {
+  color: white;
+}
+
+.rating-number {
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+}
+
+.rating-text {
+  color: #a020f0;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.rating-star {
+  display: flex;
+}

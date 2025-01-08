@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000; /* Black background */
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Logo Styles */
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a020f0; /* Purple color */
+  margin: 0;
+}
+
+/* Navigation Styles */
+.nav-links {
+  display: flex;
+  gap: 50px;
+  margin-left: 350px;
+}
+
+.digital-art-div-tex {
+  text-decoration: none;
+  text-colo: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.digital-art-div-tex:hover {
+  color: #fed26a; /* Purple hover color */
+}
+
+/* Icons Section */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-icon,
+.hamburger-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-icon img {
+  width: 25px;
+  height: 25px;
+}
+
+.cart-icon img,
+.profile-icon img {
+  width: 50px;
+  height: 50px;
+}
