@@ -1,0 +1,59 @@
+.unique-collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414;
+  padding: 50px;
+  color: white;
+  position: relative;
+}
+
+/* Rocket Icon (Left) */
+.rocket-icon {
+  position: absolute;
+  left: 20px;
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+/* Main Content */
+.unique-collection-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.unique-heading {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #a020f0; /* Purple */
+}
+
+.unique-description {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.unique-btn {
+  background-color: #a020f0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.unique-btn:hover {
+  background-color: #8a1acd;
+}
+
+/* Fireball Icon (Right) */
+.fireball-icon {
+  position: absolute;
+  right: 20px;
+  width: 260px;
+}

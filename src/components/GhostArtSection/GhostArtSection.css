@@ -1,0 +1,58 @@
+.ghost-art-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 50px 200px;
+  gap: 50px;
+}
+
+/* Left Content */
+.content {
+  max-width: 43%;
+}
+
+.wavy-icon {
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #a020f0;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.view-more-btn {
+  background-color: #a020f0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.view-more-btn:hover {
+  background-color: #8a1acd;
+}
+
+/* Right Image */
+.image-container {
+  max-width: 50%;
+}
+
+.ghost-art-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,99 @@
+.roadmap {
+  padding: 50px 20px;
+  background-color: #000; /* Black background */
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.roadmap-title {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: #a020f0; /* Purple highlight */
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.milestone {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+  position: relative;
+}
+
+.milestone.left {
+  flex-direction: row-reverse;
+}
+
+.milestone-content {
+  background: #222;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.milestone-content .date {
+  font-size: 14px;
+  color: #a020f0;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.milestone-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.milestone-description {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.milestone-marker {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.marker-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #a020f0; /* Purple */
+}
+
+.milestone.left .milestone-marker {
+  right: -10px;
+}
+
+.milestone.right .milestone-marker {
+  left: -10px;
+}
+
+/* Connectors between milestones */
+.timeline:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #a020f0;
+  z-index: 0;
+}
