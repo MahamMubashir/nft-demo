@@ -1,99 +1,105 @@
+/* Overall Roadmap Styling */
 .roadmap {
-  padding: 50px 20px;
   background-color: #000; /* Black background */
-  color: white;
+  color: #fff;
+  padding: 40px 20px;
   text-align: center;
-  position: relative;
 }
-
-.roadmap-title {
-  font-size: 42px;
-  margin-bottom: 40px;
-}
-
-.highlight {
-  color: #a020f0; /* Purple highlight */
-}
-
-.timeline {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.milestone {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 30px 0;
-  width: 100%;
-  position: relative;
-}
-
-.milestone.left {
-  flex-direction: row-reverse;
-}
-
-.milestone-content {
-  background: #222;
-  border-radius: 15px;
-  padding: 20px;
-  width: 300px;
-  text-align: left;
-}
-
-.milestone-content .date {
-  font-size: 14px;
-  color: #a020f0;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.milestone-title {
+.roadmap-header {
   font-size: 20px;
+}
+
+.roadmap-header h2 {
+  font-size: 56px;
   font-weight: 700;
-  margin: 10px 0;
+  color: white; /* Purple */
 }
 
-.milestone-description {
-  font-size: 14px;
-  color: #ccc;
+.roadmap-header p {
+  color: #ddd;
+  font-size: 16px;
+  margin-top: 8px;
 }
 
-.milestone-marker {
-  width: 20px;
-  height: 20px;
-  background-color: transparent;
+/* Timeline Styling */
+.roadmap-timeline {
+  position: relative;
+  margin: 40px 370px;
+  padding-left: 50px;
+  border-left: 2px dashed #444; /* Dashed vertical line */
+  max-width: 800px;
+}
+
+.roadmap-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
+  background-color: #141414;
+  padding: 20px;
+  width: 600px;
+}
+
+/* Circle and Number */
+.roadmap-circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0px;
+  background-color: #a98ffc;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  border-radius: 0 0 100% 0;
 }
 
-.marker-circle {
-  width: 16px;
-  height: 16px;
+.roadmap-number {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Content Styling */
+.roadmap-content {
+  margin-left: 70px;
+  text-align: left;
+}
+
+.roadmap-date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a98ffc;
+  margin-bottom: 8px;
+}
+
+.roadmap-content h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.h3-span-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roadmap-content p {
+  font-size: 14px;
+  color: #ddd;
+  padding-top: 20px;
+  border-top: 1px solid white;
+}
+
+.roadmap-progress {
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #a98ffc;
+  color: #fff;
+  padding: 10px 7px;
   border-radius: 50%;
-  background-color: #a020f0; /* Purple */
-}
-
-.milestone.left .milestone-marker {
-  right: -10px;
-}
-
-.milestone.right .milestone-marker {
-  left: -10px;
-}
-
-/* Connectors between milestones */
-.timeline:before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 100%;
-  background-color: #a020f0;
-  z-index: 0;
+  font-size: 12px;
+  font-weight: bold;
 }

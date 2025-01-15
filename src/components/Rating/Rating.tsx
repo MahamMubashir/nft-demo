@@ -15,28 +15,28 @@ function Rating() {
               <img src={RatingStar} alt="Cart" />
               <div className="rating-number">125+</div>
             </div>
-            <div className="rating-text">NFTs Sold</div>
+            <div className="rating-text nft-text">NFTs Sold</div>
           </div>
           <div className="rating">
             <div className="rating-star">
               <img src={RatingStar} alt="Cart" />
               <div className="rating-number">61+</div>
             </div>
-            <div className="rating-text">Happy Clients</div>
+            <div className="rating-text client-text">Happy Clients</div>
           </div>
           <div className="rating">
             <div className="rating-star">
               <img src={RatingStar} alt="Cart" />
               <div className="rating-number">153+</div>
             </div>
-            <div className="rating-text">Featured NFTs</div>
+            <div className="rating-text featured-text">Featured NFTs</div>
           </div>
           <div className="rating">
             <div className="rating-star">
               <img src={RatingStar} alt="Cart" />
               <div className="rating-number">15+</div>
             </div>
-            <div className="rating-text">Renowned Awards</div>
+            <div className="rating-text renowned-text">Renowned Awards</div>
           </div>
         </div>
       </div>

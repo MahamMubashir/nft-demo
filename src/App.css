@@ -5,4 +5,12 @@
 body {
   background-color: #000; /* Black background */
   font-family: Quicksand, sans-serif;
+  max-width: 1200px; /* Or any maximum width based on your design */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 2500px; /* Adjust for larger screens */
+  }
 }

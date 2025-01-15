@@ -1,43 +1,80 @@
 import "./RoadMap.css";
+import lines from "../../assets/DigiArt2.png";
 
 function RoadMap() {
   return (
-    <div className="unique-collection">
+    <div className="roadmap">
       {/* Section Header */}
-      <div className="collection-header">
-        <h2>
-          The <span className="highlight">Unique Collection</span>
-        </h2>
-        <p>Explore rare and exclusive NFTs</p>
+      <div className="roadmap-header">
+        <img src={lines} alt="lines" />
+
+        <h1>
+          <span className="highlight">The</span> Road Map
+        </h1>
       </div>
 
-      {/* Collection Cards */}
-      <div className="collection-cards">
-        {/* Example Card 1 */}
-        <div className="card">
-          <div className="card-icon">
-            <img src="path/to/icon1.png" alt="Icon 1" />
+      {/* Roadmap Timeline */}
+      <div className="roadmap-timeline">
+        {/* Example Milestone 1 */}
+        <div className="roadmap-item">
+          <div className="roadmap-circle">
+            <span className="roadmap-number">01</span>
           </div>
-          <h3>Artwork 1</h3>
-          <p>High-quality, one-of-a-kind NFT</p>
+          <div className="roadmap-content">
+            <div className="roadmap-date">
+              <span>JAN</span> 2024
+            </div>
+            <div className="h3-span-div">
+              <h3>Launch</h3>
+              <span className="roadmap-progress">25%</span>
+            </div>
+
+            <p>
+              Quality is a First. Then we are planning the best services
+              provided.
+            </p>
+          </div>
         </div>
 
-        {/* Example Card 2 */}
-        <div className="card">
-          <div className="card-icon">
-            <img src="path/to/icon2.png" alt="Icon 2" />
+        {/* Example Milestone 2 */}
+        <div className="roadmap-item">
+          <div className="roadmap-circle">
+            <span className="roadmap-number">02</span>
           </div>
-          <h3>Artwork 2</h3>
-          <p>Limited-edition masterpiece</p>
+          <div className="roadmap-content">
+            <div className="roadmap-date">
+              <span>APRIL</span> 2024
+            </div>
+            <div className="h3-span-div">
+              <h3>Production</h3>
+              <span className="roadmap-progress">35%</span>
+            </div>
+            <p>
+              Quality is a First. Then we are planning the best services
+              provided.
+            </p>
+          </div>
         </div>
 
-        {/* Example Card 3 */}
-        <div className="card">
-          <div className="card-icon">
-            <img src="path/to/icon3.png" alt="Icon 3" />
+        {/* Example Milestone 3 */}
+        <div className="roadmap-item">
+          <div className="roadmap-circle">
+            <span className="roadmap-number">03</span>
           </div>
-          <h3>Artwork 3</h3>
-          <p>Digital art with a story</p>
+          <div className="roadmap-content">
+            <div className="roadmap-date">
+              <span>JUNE</span> 2024
+            </div>
+
+            <div className="h3-span-div">
+              <h3>Minting</h3>
+              <span className="roadmap-progress">50%</span>
+            </div>
+            <p>
+              Quality is a First. Then we are planning the best services
+              provided.
+            </p>
+          </div>
         </div>
       </div>
     </div>

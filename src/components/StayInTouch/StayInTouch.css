@@ -1,0 +1,71 @@
+.stay-in-touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 50px 120px 20px 120px;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h2 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #a564ff;
+}
+
+.read-more-button {
+  background-color: #a564ff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+  background-color: #853efc;
+}
+
+.bird-icon {
+  width: 130px;
+  height: 90px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 50%;
+}
+
+.main-illustration {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  text-align: right;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.contact-info p {
+  margin: 0;
+}

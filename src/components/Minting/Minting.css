@@ -2,11 +2,11 @@
   text-align: center;
   background-color: #000; /* Black background */
   color: white;
-  padding: 50px 20px;
+  padding: 50px 200px;
 }
 
 .countdown-title {
-  font-size: 42px;
+  font-size: 78px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -16,14 +16,14 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  font-size: 24px;
+  font-size: 78px;
   font-weight: 500;
   margin-bottom: 30px;
 }
 
 .rocket-icon {
-  width: 50px;
-  animation: fly 2s infinite alternate;
+  width: 15%;
+  transform: rotate(-15deg);
 }
 
 .highlight {
@@ -32,7 +32,7 @@
 
 .timer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 10px;
 }
@@ -45,7 +45,7 @@
 }
 
 .time-value {
-  font-size: 32px;
+  font-size: 92px;
   font-weight: bold;
   color: #f9a602; /* Yellow for numbers */
 }
@@ -58,13 +58,4 @@
 .time-divider {
   font-size: 32px;
   color: #a020f0; /* Purple for colons */
-}
-
-@keyframes fly {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-10px);
-  }
 }

@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import logo from "../../assets/Logo-1.png";
 import cart from "../../assets/Group45.png";
 import profile from "../../assets/Frame627.png";
@@ -5,16 +6,22 @@ import nav from "../../assets/Vector.png";
 import "./Header.css";
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <div className="header">
         {/* Logo Section */}
         <div className="logo">
-          <img src={logo} alt="Cart" />
+          <img src={logo} alt="Logo" />
         </div>
 
-        {/* Navigation Section */}
-        <nav className="nav-links">
+        {/* Navigation Section (Hidden for smaller screens) */}
+        <nav className={`nav-links ${isMenuOpen ? "show" : ""}`}>
           <a href="#" className="nav-item">
             Home
           </a>
@@ -47,7 +54,7 @@ function Header() {
           </button>
 
           {/* Hamburger Icon */}
-          <button className="hamburger-icon">
+          <button className="hamburger-icon" onClick={toggleMenu}>
             <img src={nav} alt="Menu" />
           </button>
         </div>

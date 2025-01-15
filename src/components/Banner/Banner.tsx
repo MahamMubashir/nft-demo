@@ -16,10 +16,10 @@ function Banner() {
 
       {/* Part 2: Heading and Content */}
       <div className="banner-content">
-        <h1 className="banner-heading">
+        <div className="banner-heading">
           CREATE <span className="highlight">NFT'S</span> OF{" "}
           <span className="highlight">ART</span>
-        </h1>
+        </div>
         <p className="banner-subtitle">NEW JOURNEY WITH 9,999 NFTs</p>
         <p className="banner-description">
           First NFT utility project for Developers and Designers based on
@@ -34,7 +34,7 @@ function Banner() {
       <div className="banner-images">
         <img src={star} alt="Star Icon" className="star-icon" />
         <img src={lines} alt="Lines Icon" className="lines-icon" />
-        <div>
+        <div className="nft-rocket-div">
           <img src={nft} alt="NFT Character" className="nft-character" />
           <img src={rocket} alt="Rocket Icon" className="rocket-icon" />
         </div>

@@ -1,0 +1,58 @@
+.partners-container {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.partners-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #a564ff;
+}
+
+.partners-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.partner-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  width: 250px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.partner-image {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.partner-info {
+  margin-top: 1rem;
+}
+
+.partner-category {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.partner-name {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #fff;
+}
+
+.partner-description {
+  font-size: 0.8rem;
+  color: #777;
+}

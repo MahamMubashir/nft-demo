@@ -2,6 +2,7 @@ import "./DigitalArt.css";
 import BigNft from "../../assets/DigiArt1.png";
 import lines from "../../assets/DigiArt2.png";
 import RatingStar from "../../assets/DigiArtStarIcon3.png";
+import Fish from "../../assets/fish.png";
 
 function DigitalArt() {
   return (
@@ -18,7 +19,9 @@ function DigitalArt() {
               diam amet nunc sem. Lobortis fringilla{" "}
             </p>
             <div className="digital-art-buttons">
-              <button className="btn btn-primary">VIEW ALL 🌟</button>
+              <button className="btn btn-primary">
+                VIEW ALL <img src={Fish} />
+              </button>
             </div>
           </div>
         </div>

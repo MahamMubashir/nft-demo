@@ -13,6 +13,12 @@
   margin-top: 80px;
 }
 
+.digital-art-description .btn img {
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+}
+
 .digital-art-description {
   width: 240px;
   color: #ffffff;
@@ -40,7 +46,7 @@
 }
 
 .digital-art-div-text:hover {
-  color: #a020f0; /* Purple hover color */
+  color: #fed26a;
 }
 
 .digital-art-divs {
