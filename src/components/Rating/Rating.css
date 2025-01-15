@@ -49,26 +49,3 @@
   justify-content: center; /* Center items horizontally */
   align-items: center;
 }
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .rating-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
-    gap: 20px; /* Space between items */
-  }
-}
-
-@media (max-width: 480px) {
-  .rating-row {
-    grid-template-columns: 1fr; /* Single column layout */
-  }
-
-  .rating-number {
-    font-size: 40px; /* Adjust font size for smaller screens */
-  }
-
-  .rating-text {
-    font-size: 16px; /* Adjust text size for smaller screens */
-  }
-}
