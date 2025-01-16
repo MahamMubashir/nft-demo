@@ -59,3 +59,31 @@
   font-size: 32px;
   color: #a020f0; /* Purple for colons */
 }
+
+@media (max-width: 1204px) {
+}
+
+@media (max-width: 768px) {
+  .countdown {
+    padding: 0px 0 50px 0px;
+  }
+
+  .countdown-subtitle img {
+    display: none;
+  }
+  .countdown-subtitle {
+    font-size: 40px;
+  }
+
+  .time-value {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+  .time-box {
+    display: flex;
+    flex-direction: column;
+  }
+}

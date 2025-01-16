@@ -103,3 +103,31 @@
   font-size: 12px;
   font-weight: bold;
 }
+
+@media (max-width: 1204px) {
+  .roadmap-timeline {
+    margin: 40px 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets */
+  .roadmap-timeline {
+    margin: 40px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+  .roadmap-item {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .roadmap-timeline {
+    padding-left: 10px;
+  }
+  .roadmap-content {
+    margin-left: 40px;
+  }
+}

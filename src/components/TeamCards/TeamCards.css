@@ -68,3 +68,29 @@
   font-size: 14px;
   color: #ffffff;
 }
+
+@media (max-width: 1204px) {
+  .card {
+    width: 230px;
+  }
+  .image-container {
+    max-width: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets */
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    padding: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+}

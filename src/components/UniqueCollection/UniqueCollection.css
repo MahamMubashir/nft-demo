@@ -57,3 +57,19 @@
   right: 20px;
   width: 260px;
 }
+
+@media (max-width: 1204px) {
+}
+
+@media (max-width: 768px) {
+  .unique-collection .rocket-icon {
+    display: none;
+  }
+  .unique-collection .fireball-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+}

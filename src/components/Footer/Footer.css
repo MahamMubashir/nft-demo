@@ -62,3 +62,21 @@
 .footer .social-link:hover {
   color: #a855f7;
 }
+
+@media (max-width: 1204px) {
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+  .footer-container {
+    padding: 20px 0px;
+  }
+
+  .footer-links {
+    gap: 10px;
+  }
+}

@@ -52,3 +52,21 @@
 .digital-art-divs {
   margin-top: 100px;
 }
+
+@media (max-width: 1204px) {
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets */
+  .digital-art-image {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+  .digital-art-block {
+    flex-direction: column;
+    align-items: center;
+  }
+}

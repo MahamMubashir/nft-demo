@@ -56,3 +56,30 @@
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 1204px) {
+}
+
+@media (max-width: 768px) {
+  .ghost-art-section {
+    padding: 50px 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for mobile devices */
+  .image-container {
+    display: none;
+  }
+
+  .ghost-art-section {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .content {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
